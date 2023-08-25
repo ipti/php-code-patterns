@@ -42,18 +42,18 @@
 - **CountInLoopExpression:** Não utilizar as funções `count` ou `sizeof` em expressões de loop. Uma vez que pode se tornar uma fonte potencial de muitos bugs.
 
 ## NAMING RULES
-- **LongClassName(max: 40):** Declarar classes com nomes de no máximo 40 caracteres e no mínimo 3 caracteres.
-- **ShortClassName(min: 3):** Declarar classes 
-- **LongVariable(max: 20):**
-- **ShortVariable(min: 3):**
-- **ShortMethodName(min: 3):**
-- **ConstrutorWithNameAsEnclosingClass:**
-- **ConstantNaming:**
+- **LongClassName(max: 40):** Declarar classes com nomes de no máximo 40 caracteres.
+- **ShortClassName(min: 3):** Declarar classes com nomes de no minímo 3 caracteres.
+- **LongVariable(max: 20):** Declarar variaveis com no máximo 20 caracteres.
+- **ShortVariable(min: 3):** Declarar variaveis com no mínimo 3 caracteres.
+- **ShortMethodName(min: 3):** Declarar metodos com nomes com no mínimo 3 caracteres.
+- **ConstrutorWithNameAsEnclosingClass:** Um método construtor não deve ter o mesmo nome da classe envolvente
+- **ConstantNaming:** Nomes de constantes de classe/interface devem sempre ser definidos em letras maiúsculas.
 
 ## UNUSED CODE RULES
-- **UnusedPrivateField:**
-- **UnusedLocalVariable:**
-- **UnusedPrivateMethod:**
-- **UnusedFormalParameter:**
+- **UnusedPrivateField:** Detecta quando um campo privado é declarado e/ou atribuído um valor, mas não é usado.
+- **UnusedLocalVariable:** Detecta quando uma variável local é declarada e/ou atribuída, mas não é usada.
+- **UnusedPrivateMethod:** o método privado não utilizado detecta quando um método privado é declarado, mas não é usado.
+- **UnusedFormalParameter:** evite passar parâmetros para métodos ou construtores e depois não usar esses parâmetros.
 
 
